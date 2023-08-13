@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: ./hemlcharts/myapp
+      chart: ./heml_charts/demo2
       version: '22.1+19'
       sourceRef:
         kind: GitRepository
