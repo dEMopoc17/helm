@@ -12,10 +12,6 @@ spec:
       sourceRef:
         kind: GitRepository
         name: nginx
-        namespace: flux-system
+        namespace: application
       interval: 1m
-      valuesFiles:
-        - values.yaml      
-  values:
-    image:
-      tag: New-tag
+
