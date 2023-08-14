@@ -19,10 +19,3 @@ spec:
   values:
     image:
       tag: New-tag
-  valuesFrom:
-    - kind: ConfigMap
-      name: helm-values
-      valuesKey: values.yml
-    - kind: Secret
-      name: helm-secrets
-      valuesKey: secrets.yml
