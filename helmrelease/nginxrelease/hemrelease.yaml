@@ -11,7 +11,7 @@ spec:
       version: '22.1+19'
       sourceRef:
         kind: GitRepository
-        name: Myapplicationcharts
+        name: nginx
         namespace: flux-system
       interval: 1m
       valuesFiles:
