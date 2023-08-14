@@ -8,7 +8,7 @@ spec:
   chart:
     spec:
       chart: ./helmcharts/charts/nginx
-      version: '22.1+25'
+      version: '22.1+15'
       sourceRef:
         kind: GitRepository
         name: nginx
