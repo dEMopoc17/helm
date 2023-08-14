@@ -7,7 +7,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: . helmcharts/charts/nginx/
+      chart: . helmcharts/charts/
       version: '22.1+19'
       sourceRef:
         kind: GitRepository
