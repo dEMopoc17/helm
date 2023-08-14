@@ -1,4 +1,4 @@
 name: nginx-deployment
 namespace: application
-image: busybox
+image: nginx
 app: nginx
