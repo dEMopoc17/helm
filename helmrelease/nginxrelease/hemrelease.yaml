@@ -14,4 +14,3 @@ spec:
         name: nginx-application
         namespace: application
       interval: 1m
-
