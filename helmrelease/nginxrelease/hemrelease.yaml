@@ -11,7 +11,7 @@ spec:
       version: '1.16.0'
       sourceRef:
         kind: GitRepository
-        name: nginx
-        namespace: flux-system
+        name: nginx-application
+        namespace: application
       interval: 1m
 
