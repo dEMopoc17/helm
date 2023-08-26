@@ -2,3 +2,4 @@ name: nginx-deployment
 namespace: application
 image: nginx
 app: nginx
+replicas: 1
